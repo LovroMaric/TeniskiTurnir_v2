@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<appConfig>
+    <dbUrl>jdbc:postgresql://localhost:5432/tennis_db</dbUrl>
+    <dbUser>postgres</dbUser>
+    <dbPassword>Xe8nTfY5123</dbPassword>
+    <screenWidth>1000</screenWidth>
+    <screenHeight>700</screenHeight>
+</appConfig>

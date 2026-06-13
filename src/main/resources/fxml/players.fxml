@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.PlayerController">
+
+    <top>
+        <ToolBar>
+            <Button text="Add" onAction="#addPlayer"/>
+            <Button text="Update" onAction="#updatePlayer"/>
+            <Button text="Delete" onAction="#deletePlayer"/>
+            <Separator/>
+            <Button text="Clear" onAction="#clearForm"/>
+        </ToolBar>
+    </top>
+
+    <center>
+        <TableView fx:id="playerTable">
+            <columns>
+                <TableColumn fx:id="colId" text="ID" prefWidth="50"/>
+                <TableColumn fx:id="colFirstName" text="First Name" prefWidth="150"/>
+                <TableColumn fx:id="colLastName" text="Last Name" prefWidth="150"/>
+                <TableColumn fx:id="colRanking" text="Ranking" prefWidth="100"/>
+                <TableColumn fx:id="colCountry" text="Country" prefWidth="150"/>
+            </columns>
+        </TableView>
+    </center>
+
+    <bottom>
+        <GridPane hgap="10" vgap="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <Label text="First Name:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="firstNameField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+            <Label text="Last Name:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextField fx:id="lastNameField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+            <Label text="Ranking:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <TextField fx:id="rankingField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+            <Label text="Image Path:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <TextField fx:id="imagePathField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+            <Label text="Country:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+            <ComboBox fx:id="countryCombo" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+            <ImageView fx:id="playerImageView"
+                       fitWidth="180"
+                       fitHeight="180"
+                       preserveRatio="true"
+                       GridPane.rowIndex="0"
+                       GridPane.columnIndex="2"
+                       GridPane.rowSpan="5"/>
+        </GridPane>
+    </bottom>
+
+</BorderPane>

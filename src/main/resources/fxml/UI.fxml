@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.PlayerController">
+
+    <center>
+
+        <TableView fx:id="table">
+
+            <columns>
+
+                <TableColumn fx:id="idCol" text="ID"/>
+                <TableColumn fx:id="fnCol" text="First Name"/>
+                <TableColumn fx:id="lnCol" text="Last Name"/>
+                <TableColumn fx:id="rankCol" text="Ranking"/>
+
+            </columns>
+
+        </TableView>
+
+    </center>
+
+    <bottom>
+
+        <HBox spacing="10">
+
+            <TextField fx:id="fnField" promptText="First Name"/>
+            <TextField fx:id="lnField" promptText="Last Name"/>
+            <TextField fx:id="rankField" promptText="Ranking"/>
+
+            <Button text="Add" onAction="#add"/>
+            <Button text="Update" onAction="#update"/>
+            <Button text="Delete" onAction="#delete"/>
+
+        </HBox>
+
+    </bottom>
+
+</BorderPane>

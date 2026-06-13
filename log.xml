@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<logEntries>
+    <logEntry>
+        <timestamp>2026-06-12T16:50:38.615848300</timestamp>
+        <username>admin</username>
+        <action>LOGIN</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:23:44.411996900</timestamp>
+        <username>admin</username>
+        <action>LOGIN</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:07.000903800</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: Test3 Player2</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:08.999929400</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: Test3 Player2</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:09.569636200</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: Test3 Player2</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:14.596870500</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: Test3 Player2</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:20.308828100</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: Test4 Player2</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:20.691885900</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: Test4 Player2</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:22.748979300</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: Test4 Player2</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:23.331818500</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: Test4 Player2</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:23.465861500</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: Test4 Player2</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:23.720252600</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: Test4 Player2</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:23.792146700</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: Test4 Player2</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:26.828615400</timestamp>
+        <username>admin</username>
+        <action>DELETE PLAYER: Test4 Player2</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:48.425114900</timestamp>
+        <username>admin</username>
+        <action>ADD PLAYER: test3 test3</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:54.665843400</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: test4 test3</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:55.437469700</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: test4 test3</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:55.768933600</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: test4 test3</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:24:59.526671400</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: test4 test3</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:25:16.140917100</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: test5 test3</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:32:28.348486700</timestamp>
+        <username>admin</username>
+        <action>LOGIN</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:44:54.446912900</timestamp>
+        <username>admin</username>
+        <action>LOGIN</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:45:18.113576400</timestamp>
+        <username>admin</username>
+        <action>LOGOUT</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:47:29.852902200</timestamp>
+        <username>admin</username>
+        <action>LOGIN</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:51:00.030899900</timestamp>
+        <username>admin</username>
+        <action>LOGIN</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:51:19.272495700</timestamp>
+        <username>admin</username>
+        <action>ADD PLAYER: test1 test</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:51:25.719356400</timestamp>
+        <username>admin</username>
+        <action>UPDATE PLAYER: test2 test</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-12T17:51:41.223531300</timestamp>
+        <username>admin</username>
+        <action>DELETE PLAYER: test2 test</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-13T22:11:13.968605100</timestamp>
+        <username>user2</username>
+        <action>REGISTER</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-13T22:11:14.033193200</timestamp>
+        <username>user2</username>
+        <action>REGISTER</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-13T22:11:35.488307700</timestamp>
+        <username>user2</username>
+        <action>REGISTER</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-13T22:13:25.638561300</timestamp>
+        <username>admin</username>
+        <action>LOGIN</action>
+    </logEntry>
+    <logEntry>
+        <timestamp>2026-06-13T22:14:00.816273</timestamp>
+        <username>admin</username>
+        <action>UPDATE TOURNAMENT: Wimbledon</action>
+    </logEntry>
+</logEntries>

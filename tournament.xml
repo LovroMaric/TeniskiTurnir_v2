@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tournament>
+    <id>1</id>
+    <name>Wimbledon</name>
+    <foundedYear>1877</foundedYear>
+    <prizeMoney>50000000.00</prizeMoney>
+    <surface>GRASS</surface>
+    <imagePath>assets/wimbledon.png</imagePath>
+    <hostCountry>
+        <id>4</id>
+        <name>Italy</name>
+    </hostCountry>
+    <category>
+        <id>1</id>
+        <name>Grand Slam</name>
+    </category>
+    <players/>
+    <sponsors/>
+</tournament>
